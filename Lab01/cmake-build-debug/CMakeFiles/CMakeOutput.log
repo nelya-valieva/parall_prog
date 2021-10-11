@@ -1,0 +1,325 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: C:/Users/NValieva/gcc/bin/gfortran.exe 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: C:/Users/NValieva/gcc/bin/gfortran.exe -v CMakeFortranCompilerId.F -l gfortran
+Built by Equation Solution <http://www.Equation.com>.
+Using built-in specs.
+COLLECT_GCC=C:/Users/NValieva/gcc/bin/gfortran.exe
+COLLECT_LTO_WRAPPER=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-6.2.0-mingw/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 --with-gcc --with-gnu-ld --with-gnu-as --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-diagnostics-color=auto-if-env --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+Thread model: win32
+gcc version 6.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+ c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=C:\Users\NValieva\AppData\Local\Temp\ccH2fsb5.f90 -quiet -v -iprefix c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/ -U_REENTRANT CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude -o C:\Users\NValieva\AppData\Local\Temp\ccwUEsh0.s
+GNU Fortran (GCC) version 6.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/include"
+ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0/lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"
+ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"
+ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude
+ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/include
+ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed
+ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU Fortran2008 (GCC) version 6.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+ c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o C:\Users\NValieva\AppData\Local\Temp\ccp0P031.o C:\Users\NValieva\AppData\Local\Temp\ccwUEsh0.s
+GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712
+Reading specs from c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/;c:/users/nvalieva/gcc/bin/../libexec/gcc/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/
+EQ_LIBRARY_PATH=c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/;c:/users/nvalieva/gcc/bin/../lib/gcc/;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+ c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/collect2.exe -plugin c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NValieva\AppData\Local\Temp\ccgd7ne9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 -m i386pep -Bdynamic C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0 -Lc:/users/nvalieva/gcc/bin/../lib/gcc -LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib -LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../.. C:\Users\NValieva\AppData\Local\Temp\ccp0P031.o -lgfortran -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
+
+The Fortran compiler identification is GNU, found in "C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdFortran/a.exe"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a1a99/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1a99.dir\build.make CMakeFiles/cmTC_a1a99.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_a1a99.dir/CMakeFortranCompilerABI.F.obj
+C:\Users\NValieva\gcc\bin\gfortran.exe   -v -c "D:\parallprog\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F" -o CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj
+Built by Equation Solution <http://www.Equation.com>.
+Using built-in specs.
+COLLECT_GCC=C:\Users\NValieva\gcc\bin\gfortran.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-6.2.0-mingw/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 --with-gcc --with-gnu-ld --with-gnu-as --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-diagnostics-color=auto-if-env --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+Thread model: win32
+gcc version 6.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64'
+ c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/f951.exe D:\parallprog\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F -ffixed-form -cpp=C:\Users\NValieva\AppData\Local\Temp\ccPVCkNd.f90 -quiet -v -iprefix c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/ -U_REENTRANT D:\parallprog\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj -version -fintrinsic-modules-path c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude -o C:\Users\NValieva\AppData\Local\Temp\ccy5kfxh.s
+GNU Fortran (GCC) version 6.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/include"
+ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0/lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"
+ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"
+ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude
+ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/include
+ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed
+ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU Fortran2008 (GCC) version 6.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64'
+ c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj C:\Users\NValieva\AppData\Local\Temp\ccy5kfxh.s
+GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712
+COMPILER_PATH=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/;c:/users/nvalieva/gcc/bin/../libexec/gcc/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/
+EQ_LIBRARY_PATH=c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/;c:/users/nvalieva/gcc/bin/../lib/gcc/;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64'
+Linking Fortran executable cmTC_a1a99.exe
+"D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a1a99.dir\link.txt --verbose=1
+"D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a1a99.dir/objects.a
+C:\Users\NValieva\gcc\bin\ar.exe cr CMakeFiles\cmTC_a1a99.dir/objects.a @CMakeFiles\cmTC_a1a99.dir\objects1.rsp
+C:\Users\NValieva\gcc\bin\gfortran.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_a1a99.dir/objects.a -Wl,--no-whole-archive -o cmTC_a1a99.exe -Wl,--out-implib,libcmTC_a1a99.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Driving: C:\Users\NValieva\gcc\bin\gfortran.exe -v -Wl,--whole-archive CMakeFiles\cmTC_a1a99.dir/objects.a -Wl,--no-whole-archive -o cmTC_a1a99.exe -Wl,--out-implib,libcmTC_a1a99.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran
+Built by Equation Solution <http://www.Equation.com>.
+Using built-in specs.
+COLLECT_GCC=C:\Users\NValieva\gcc\bin\gfortran.exe
+COLLECT_LTO_WRAPPER=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-6.2.0-mingw/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 --with-gcc --with-gnu-ld --with-gnu-as --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-diagnostics-color=auto-if-env --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+Thread model: win32
+gcc version 6.2.0 (GCC) 
+Reading specs from c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1a99.exe' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/;c:/users/nvalieva/gcc/bin/../libexec/gcc/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/
+EQ_LIBRARY_PATH=c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/;c:/users/nvalieva/gcc/bin/../lib/gcc/;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/;c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1a99.exe' '-mtune=generic' '-march=x86-64'
+ c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/collect2.exe -plugin c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NValieva\AppData\Local\Temp\ccjReXBH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 -m i386pep -Bdynamic -o cmTC_a1a99.exe C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0 -Lc:/users/nvalieva/gcc/bin/../lib/gcc -LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib -LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../.. --whole-archive CMakeFiles\cmTC_a1a99.dir/objects.a --no-whole-archive --out-implib libcmTC_a1a99.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1a99.exe' '-mtune=generic' '-march=x86-64'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude]
+    add: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include]
+    add: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed]
+    add: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude] ==> [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/finclude]
+  collapse include dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include] ==> [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/include]
+  collapse include dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed] ==> [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed]
+  collapse include dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/NValieva/gcc/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/finclude;C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/include;C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed;C:/Users/NValieva/gcc/x86_64-w64-mingw32/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a1a99/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1a99.dir\build.make CMakeFiles/cmTC_a1a99.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_a1a99.dir/CMakeFortranCompilerABI.F.obj]
+  ignore line: [C:\Users\NValieva\gcc\bin\gfortran.exe   -v -c "D:\parallprog\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F" -o CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj]
+  ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\NValieva\gcc\bin\gfortran.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-6.2.0-mingw/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 --with-gcc --with-gnu-ld --with-gnu-as --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-diagnostics-color=auto-if-env --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 6.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64']
+  ignore line: [ c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/f951.exe D:\parallprog\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F -ffixed-form -cpp=C:\Users\NValieva\AppData\Local\Temp\ccPVCkNd.f90 -quiet -v -iprefix c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/ -U_REENTRANT D:\parallprog\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj -version -fintrinsic-modules-path c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude -o C:\Users\NValieva\AppData\Local\Temp\ccy5kfxh.s]
+  ignore line: [GNU Fortran (GCC) version 6.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 6.0.0 20150531 (experimental)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0/lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/users/nvalieva/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/finclude]
+  ignore line: [ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/include]
+  ignore line: [ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed]
+  ignore line: [ c:\users\nvalieva\gcc\bin\../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 6.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 6.0.0 20150531 (experimental)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64']
+  ignore line: [ c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj C:\Users\NValieva\AppData\Local\Temp\ccy5kfxh.s]
+  ignore line: [GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712]
+  ignore line: [COMPILER_PATH=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../libexec/gcc/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [EQ_LIBRARY_PATH=c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/]
+  ignore line: [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/]
+  ignore line: [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_a1a99.dir\CMakeFortranCompilerABI.F.obj' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking Fortran executable cmTC_a1a99.exe]
+  ignore line: ["D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a1a99.dir\link.txt --verbose=1]
+  ignore line: ["D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a1a99.dir/objects.a]
+  ignore line: [C:\Users\NValieva\gcc\bin\ar.exe cr CMakeFiles\cmTC_a1a99.dir/objects.a @CMakeFiles\cmTC_a1a99.dir\objects1.rsp]
+  ignore line: [C:\Users\NValieva\gcc\bin\gfortran.exe  -v -Wl --whole-archive CMakeFiles\cmTC_a1a99.dir/objects.a -Wl --no-whole-archive -o cmTC_a1a99.exe -Wl --out-implib libcmTC_a1a99.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Driving: C:\Users\NValieva\gcc\bin\gfortran.exe -v -Wl --whole-archive CMakeFiles\cmTC_a1a99.dir/objects.a -Wl --no-whole-archive -o cmTC_a1a99.exe -Wl --out-implib libcmTC_a1a99.dll.a -Wl --major-image-version 0 --minor-image-version 0 -l gfortran]
+  ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\NValieva\gcc\bin\gfortran.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-6.2.0-mingw/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/6.2.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 --with-gcc --with-gnu-ld --with-gnu-as --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-diagnostics-color=auto-if-env --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 6.2.0 (GCC) ]
+  ignore line: [Reading specs from c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1a99.exe' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../libexec/gcc/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [EQ_LIBRARY_PATH=c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/]
+  ignore line: [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib/]
+  ignore line: [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1a99.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/collect2.exe -plugin c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NValieva\AppData\Local\Temp\ccjReXBH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531 -m i386pep -Bdynamic -o cmTC_a1a99.exe C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0 -Lc:/users/nvalieva/gcc/bin/../lib/gcc -LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib -LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../.. --whole-archive CMakeFiles\cmTC_a1a99.dir/objects.a --no-whole-archive --out-implib libcmTC_a1a99.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o]
+    arg [c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/nvalieva/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/6.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\NValieva\AppData\Local\Temp\ccjReXBH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/6-20150531] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a1a99.exe] ==> ignore
+    arg [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o] ==> obj [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o]
+    arg [-Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0] ==> dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0]
+    arg [-Lc:/users/nvalieva/gcc/bin/../lib/gcc] ==> dir [c:/users/nvalieva/gcc/bin/../lib/gcc]
+    arg [-LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib] ==> dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib]
+    arg [-LC:/Users/NValieva/gcc/x86_64-w64-mingw32/lib] ==> dir [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib]
+    arg [-Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../..] ==> dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_a1a99.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_a1a99.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o] ==> obj [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o] ==> [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o]
+  collapse obj [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o] ==> [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o]
+  collapse library dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0] ==> [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0]
+  collapse library dir [c:/users/nvalieva/gcc/bin/../lib/gcc] ==> [C:/Users/NValieva/gcc/lib/gcc]
+  collapse library dir [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../lib] ==> [C:/Users/NValieva/gcc/lib]
+  collapse library dir [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib] ==> [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/nvalieva/gcc/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../..] ==> [C:/Users/NValieva/gcc/lib]
+  implicit libs: [gfortran;mingw32;gcc;moldname;mingwex;quadmath;m;mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit objs: [C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib/crt2.o;C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/crtbegin.o;C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0/crtend.o]
+  implicit dirs: [C:/Users/NValieva/gcc/lib/gcc/x86_64-w64-mingw32/6.2.0;C:/Users/NValieva/gcc/lib/gcc;C:/Users/NValieva/gcc/x86_64-w64-mingw32/lib;C:/Users/NValieva/gcc/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_bc6b7/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bc6b7.dir\build.make CMakeFiles/cmTC_bc6b7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_bc6b7.dir/testFortranCompilerF90.f90.obj
+C:\Users\NValieva\gcc\bin\gfortran.exe    -c "C:\Users\NValieva\RUDN UNIVERSITY\parall_prog\Lab01\cmake-build-debug\CMakeFiles\CMakeTmp\testFortranCompilerF90.f90" -o CMakeFiles\cmTC_bc6b7.dir\testFortranCompilerF90.f90.obj
+Linking Fortran executable cmTC_bc6b7.exe
+"D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bc6b7.dir\link.txt --verbose=1
+"D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bc6b7.dir/objects.a
+C:\Users\NValieva\gcc\bin\ar.exe cr CMakeFiles\cmTC_bc6b7.dir/objects.a @CMakeFiles\cmTC_bc6b7.dir\objects1.rsp
+C:\Users\NValieva\gcc\bin\gfortran.exe -Wl,--whole-archive CMakeFiles\cmTC_bc6b7.dir/objects.a -Wl,--no-whole-archive -o cmTC_bc6b7.exe -Wl,--out-implib,libcmTC_bc6b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

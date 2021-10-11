@@ -1,0 +1,3 @@
+"D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\main_ex3.dir/objects.a
+C:\Users\NValieva\gcc\bin\ar.exe cr CMakeFiles\main_ex3.dir/objects.a @CMakeFiles\main_ex3.dir\objects1.rsp
+C:\Users\NValieva\gcc\bin\gfortran.exe -fopenmp -Wl,--whole-archive CMakeFiles\main_ex3.dir/objects.a -Wl,--no-whole-archive -o main_ex3.exe -Wl,--out-implib,libmain_ex3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,10 @@
+"D:\parallprog\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\NValieva\RUDN UNIVERSITY\parall_prog\Lab01"
+-- The Fortran compiler identification is GNU 6.2.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: C:/Users/NValieva/gcc/bin/gfortran.exe - skipped
+-- Checking whether C:/Users/NValieva/gcc/bin/gfortran.exe supports Fortran 90
+-- Checking whether C:/Users/NValieva/gcc/bin/gfortran.exe supports Fortran 90 - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab01/cmake-build-debug
