@@ -1,0 +1,4 @@
+C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/CMakeFiles/lab02_ex1_test.dir
+C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/CMakeFiles/lab02_ex2_test.dir
+C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/CMakeFiles/edit_cache.dir

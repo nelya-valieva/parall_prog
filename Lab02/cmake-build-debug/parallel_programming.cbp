@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="parallel_programming"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gfortran"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02_ex1_test">
+				<Option output="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/lab02_ex1_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02_ex1_test"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02_ex1_test/fast">
+				<Option output="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/lab02_ex1_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02_ex1_test/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02_ex2_test">
+				<Option output="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/lab02_ex2_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02_ex2_test"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab02_ex2_test/fast">
+				<Option output="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/lab02_ex2_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gfortran"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab02_ex2_test/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/Lab02/test_reduction.f90">
+			<Option target="lab02_ex1_test"/>
+		</Unit>
+		<Unit filename="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/Lab02/test_trapezoidal.f90">
+			<Option target="lab02_ex2_test"/>
+		</Unit>
+		<Unit filename="C:/Users/NValieva/RUDN UNIVERSITY/parall_prog/Lab02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
